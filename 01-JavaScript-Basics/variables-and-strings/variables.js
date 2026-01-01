@@ -10,7 +10,7 @@ userName = "Resah Febriyanto";
 // const is used for values that should not change
 const country = "Indonesia";
 
-// country = "Japan"; // ❌ This would cause an error
+// country = "Japan";// ❌ This would cause an error
 
 console.log(userName);
 console.log(userAge);

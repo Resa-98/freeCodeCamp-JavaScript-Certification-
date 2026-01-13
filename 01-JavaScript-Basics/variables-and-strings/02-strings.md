@@ -1,4 +1,4 @@
-# STRING (JavaScript)
+# STRINGS & CONCATINATION (JavaScript)
 ---
 ## What is it?
 A string is a data type for storing text in JavaScript.
@@ -42,7 +42,7 @@ let word = "Hello";
 console.log(word.length); // 5
 ```
 
-### 4.How to write strings
+### 4. How to write strings
 - `" "` -> double quote
 - `' '` -> single quote
 - `` ` ` `` -> template literal (recomended)
@@ -52,6 +52,20 @@ console.log(word.length); // 5
 let name = "Resa";
 let message = `Hello, ${name}`;
 ```
+
+### 5. Strings Can Be Concatenated
+- Using the `+` operator
+- Or the template literal `${}`
+
+#### Code Example 
+```js
+let result = "Hello " + "World";
+let name = "Resa";
+let greeting = "Hello " + name;
+let age = 25;
+let message = `My name is ${name}, I am ${age} years old`;
+```
+
   
    
 

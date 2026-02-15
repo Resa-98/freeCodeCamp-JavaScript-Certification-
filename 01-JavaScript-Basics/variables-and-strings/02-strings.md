@@ -42,7 +42,8 @@ let word = "Hello";
 console.log(word.length); // 5
 ```
 #### Important notes: 
-- `.length` only find many characters for a string and begin sequence is 1 
+- `.length` no matter the index of sequence.
+- 
 
 ### 4. How to write strings
 - `" "` -> double quote

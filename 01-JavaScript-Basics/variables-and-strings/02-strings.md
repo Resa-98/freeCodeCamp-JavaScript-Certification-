@@ -41,6 +41,8 @@ console.log(word[0]); // J
 let word = "Hello";
 console.log(word.length); // 5
 ```
+#### Important notes: 
+- `.length` only find many characters for a string and begin sequence is 1 
 
 ### 4. How to write strings
 - `" "` -> double quote
